@@ -1,0 +1,105 @@
+
+/*---------------------------------------BIG TABLETS TO 1200px: 1024 to 1200px-----------------------------------------*/
+
+@media only screen and (max-width: 1200px){
+    .hero-text-box,
+    .row{
+     padding: 0 2%;
+     width: 100%;
+    }
+}
+/*---------------------------------------SMALL TABLETS TO BIG TABLETS: 768 TO 1023px-----------------------------------------*/
+
+@media only screen and (max-width: 1023px){
+    body{font-size: 18px;}
+    section{padding: 60px 0;}
+    .long-copy{width: 80%;margin: 0 auto;}
+    .btn:link,
+    .btn:visited{padding: 10px 25px;}
+    .steps-box:first-child{margin-top: 7.5px;}
+    .steps-box:last-child{margin-top: 10px;}
+    .works-step{margin-bottom: 50px;}
+    .works-step{margin-bottom: 40px;}
+    .works-step:last-of-type {margin-bottom: 60px;}
+    .image-screen{width: 50%; height: auto;}
+    .btn-app img{height: 49.3px; margin-right: 10px;}
+    .city-feature{font-size: 80%;}
+    .city-feature i{width: 10px; margin-right: 5px;}
+    .box a:last-of-type{padding-bottom: 3px;}
+    .box div:second-child{margin-bottom: 3px;}
+    .plan-box{width: 100%; margin-left: 0;}
+    .plan-price{font-size: 250%;}
+    .plan-box ul li i {padding-right: 5px;}
+    .contact-form{width: 80%;}
+    
+    
+   
+}
+
+
+/*---------------------------------------SMALL PHONES TO SMALL-TABLETS: 481 TO 767px-----------------------------------------*/
+
+@media only screen and (max-width: 767px){
+    body{font-size: 16px;}
+    section{padding:30px 0}
+    .row,
+    .hero-text-box{
+        padding: 0 4%;
+    }
+    
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    .h1{font-size: 180%;}
+    .h2{font-size: 150%;}
+    .long-copy{width: 100%;}
+    
+    .image-screen{width: 40%; height: auto;}
+    .steps-box:first-child{text-align: center;}
+    
+    .works-step div{
+    
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+    font-size: 120%;
+    padding: 4px;
+    
+    
+}
+    
+    .works-step{
+        margin-bottom: 20px;
+    }
+    .works-step:last-of-type{
+        margin-bottom: 20px;
+    }
+    
+    .btn-app img:first-child{
+        margin-left: 30px;
+    }
+    .btn-app img:last-child{
+        margin-left: 35px;
+    }
+    .nav-menu{
+        display: none;
+    }
+
+}
+
+
+/*---------------------------------------SMALL PHONES: 0 TO 480px-----------------------------------------*/
+
+@media only screen and (max-width: 480p){
+   
+    
+    section{
+        padding: 20px 0;
+    }
+    .contact-form{
+        width: 100%;
+    }
+
+}
